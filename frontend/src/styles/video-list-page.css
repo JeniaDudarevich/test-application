@@ -1,0 +1,19 @@
+.ant-list .ant-card {
+  margin: 0 20px 20px 0;
+}
+.ant-list .ant-card .ant-card-body .video-react-controls-enabled {
+  padding-top: 0 !important;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.ant-list .ant-card .ant-card-body .video-react-controls-enabled .video-react-big-play-button {
+  top: 5.5em;
+  left: 42%;
+}
+@media screen and (max-width: 500px) {
+  .ant-list .ant-card .ant-card-body .video-react-controls-enabled .video-react-big-play-button {
+    left: 34%;
+  }
+}
+

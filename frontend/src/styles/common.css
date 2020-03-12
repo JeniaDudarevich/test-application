@@ -1,0 +1,23 @@
+.ant-layout-header {
+  background-color: #ffffff;
+}
+.ant-layout-content {
+  min-height: calc(100vh - 64px);
+  padding: 20px 50px;
+}
+.ant-layout-content h3 {
+  color: #0050b3;
+  font-size: 24px;
+}
+.ant-layout-content .ant-spin.ant-spin-spinning {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .ant-layout-header {
+    padding: 0 25px;
+  }
+  .ant-layout-content {
+    padding: 20px 25px;
+  }
+}
